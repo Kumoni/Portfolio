@@ -71,19 +71,37 @@ font-size: 25px;
 text-align: center;
 }
 
-.aboutMe {
-    margin-top: 300px;
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 550px;
     background-color: white;
 }
-.aboutMe > p {
-    color: black;
-    font-size: 30px;
+.AboutMe > div > img {
+    width: 200px;
+    margin-top: -300px;
+    border-radius: 1%;
+    height: 50px;
 }
-.Info{
-    background-color: black;
+.AboutMe > div > p {
+    color: black;
+    font-size: 25px;
+}
+.bg-clr {
+    background-color: rgb(10,10,10);
     width: auto;
+    height: 400px;
+}
+.bg-clr > p {
+    font-size: 10px;
 }
 
-.Info > p {
+.AboutMe-Info > p {
     font-size: 25px;
+    color: white;
+    text-align: start;
+}
+
+.imgbut {
+    padding-top: 40px;
 }
