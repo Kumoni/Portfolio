@@ -114,9 +114,8 @@ text-align: center;
 
 .MyProjects {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 500px;
+    justify-content: space-between;
+    margin-top: 50px;
     background-color: white;
 }
 .MyProjects > div > img {
@@ -129,7 +128,7 @@ text-align: center;
     padding-top: 5px;
 }
 .bg-clr {
-    background-color: black;
+    background-color: rgb(10,10,10);
     width: auto;
     height: 600px;
 }
@@ -139,21 +138,44 @@ text-align: center;
 .MyProjects-Info > div > div {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
     text-align: center;
+    padding-top: 30px;
 }
 
 .MyProjects-Info > div > div > a {
     text-decoration: none;
     color: white;
     font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
 }
 .MyProjects-Info > div > p {
     font-size: 25px;
     color: white;
-    text-align: start;
+    text-align: start;   
+}
+.Footer {
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    width: auto;
+    height: 50px;
+    align-items: center;
+}
+.Footer > div > a {
+    display: flex;
+    align-items: center;
+}
+.Footer > div > a > img {
+
+    padding: 0px;
+    width: 70px;
 }
 
 .imgbut2{
-    padding-top: 40px;
+    margin-top: 35px;
 }
