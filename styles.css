@@ -94,7 +94,7 @@ text-align: center;
     font-size: 25px;
 }
 .bg-clr {
-    background-color: rgb(10,10,10);
+    background-color: black;
     width: auto;
     height: 400px;
 }
@@ -115,7 +115,7 @@ text-align: center;
 .MyProjects {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 510px;
     background-color: white;
 }
 .MyProjects > div > img {
@@ -127,12 +127,12 @@ text-align: center;
     font-size: 25px;
     padding-top: 5px;
 }
-.bg-clr {
-    background-color: rgb(10,10,10);
+.backclr {
+    background-color: rgb(0, 0, 0);
     width: auto;
     height: 600px;
 }
-.bg-clr > p {
+.backclr > p {
     font-size: 10px;
 }
 .MyProjects-Info > div > div {
@@ -153,28 +153,38 @@ text-align: center;
     border-color: white;
     border-style: solid;
 }
+
 .MyProjects-Info > div > p {
     font-size: 25px;
     color: white;
     text-align: start;   
 }
+
 .Footer {
     display: flex;
-    margin-top: 50px;
+    margin-top: 1000px;
     background-color: white;
     width: auto;
-    height: 50px;
+    height: 70px;
     align-items: center;
+    justify-content: end;
 }
+
 .Footer > div > a {
     display: flex;
     align-items: center;
+    font-size: 25px;
 }
-.Footer > div > a > img {
 
+.Footer > div > a > img {
     padding: 0px;
     width: 70px;
 }
+
+.Footer > div > p {
+    color:black;
+}
+
 
 .imgbut2{
     margin-top: 35px;
