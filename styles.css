@@ -61,6 +61,8 @@ padding-top: 200px;
 div > img {
     border-radius: 50%;
     width: 400px; 
+    padding-top: 100px;
+    padding-left: 20px;
 }
 
 div > p {
@@ -69,3 +71,13 @@ font-size: 25px;
 text-align: center;
 }
 
+.aboutMe {
+    padding-top: 300px;
+}
+
+.colorbk {
+    background-color: black;
+    width: auto;
+    padding-left: ;
+
+}
