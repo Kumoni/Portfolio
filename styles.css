@@ -111,3 +111,49 @@ text-align: center;
 .imgbut {
     padding-top: 40px;
 }
+
+.MyProjects {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 500px;
+    background-color: white;
+}
+.MyProjects > div > img {
+    width: 200px;
+    margin-top: -200px;
+}
+.MyProjects > div > p {
+    color: black;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.bg-clr {
+    background-color: black;
+    width: auto;
+    height: 600px;
+}
+.bg-clr > p {
+    font-size: 10px;
+}
+.MyProjects-Info > div > div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.MyProjects-Info > div > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+.MyProjects-Info > div > p {
+    font-size: 25px;
+    color: white;
+    text-align: start;
+}
+
+.imgbut2{
+    padding-top: 40px;
+}
