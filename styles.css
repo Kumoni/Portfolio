@@ -71,7 +71,7 @@ div > img {
     padding-left: 20px;
 }
 
-div > p {
+p.starttext {
 color: white;
 font-size: 25px;
 text-align: center;
@@ -162,30 +162,43 @@ text-align: center;
 
 .Footer {
     display: flex;
-    margin-top: 1000px;
+    margin-top: 800px;
     background-color: white;
     width: auto;
-    height: 70px;
+    height: 80px;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
-.Footer > div > a {
+.Footer > div {
     display: flex;
     align-items: center;
-    font-size: 25px;
 }
 
-.Footer > div > a > img {
+.Footer > div > p {
+    padding-left: 10px;
+}
+
+.Footer > div > div > a {
+    display: flex;
+    align-items: center;
+}
+
+.Footer > div > div > a > img {
     padding: 0px;
     width: 70px;
 }
 
-.Footer > div > p {
-    color:black;
-}
-
-
 .imgbut2{
     margin-top: 35px;
+}
+
+p.pochta { 
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+p.infpodval {
+    font-size: 25px;
+    font-weight:bolder;
 }
