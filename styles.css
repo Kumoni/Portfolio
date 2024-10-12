@@ -4,7 +4,7 @@ padding: 0px;
 }
 
 body {
-    background-image: url(Images/fonsaita.jpg) ;
+    background-image: url(Images/background.jpg) ;
     background-size:cover;
 }
 
@@ -72,14 +72,18 @@ text-align: center;
 }
 
 .aboutMe {
-    padding-top: 300px;
+    margin-top: 300px;
+    background-color: white;
 }
-
-.colorbk {
+.aboutMe > p {
+    color: black;
+    font-size: 30px;
+}
+.Info{
     background-color: black;
     width: auto;
 }
 
-.colorbk > p {
+.Info > p {
     font-size: 25px;
 }
